@@ -1,81 +1,49 @@
-````md
 # GMEBD Admin Dashboard
 
-<p align="center">
-  <a href="https://gmebd.com/" target="_blank">
-    <img src="https://gmebd.com/wp-content/uploads/2024/03/GMEBD-Logo.png" width="220" alt="GMEBD Logo">
-  </a>
-</p>
-
-<p align="center">
-  <strong>Modern Laravel-based Admin Dashboard for GMEBD Website Management</strong>
-</p>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Laravel-10-red" alt="Laravel Version">
-  <img src="https://img.shields.io/badge/PHP-8.1+-blue" alt="PHP Version">
-  <img src="https://img.shields.io/badge/MySQL-Database-orange" alt="MySQL">
-  <img src="https://img.shields.io/badge/Status-Active-success" alt="Project Status">
-  <img src="https://img.shields.io/badge/License-Private-red" alt="License">
-</p>
+A powerful and modern Admin Dashboard developed for managing the official website of GMEBD. This system is built with Laravel and provides complete control over website content, products, categories, media, and administrative operations.
 
 ---
 
-# 📌 About The Project
+## 🚀 Project Overview
 
-The **GMEBD Admin Dashboard** is a professional Laravel-based administration panel developed for managing the official GMEBD website content, products, categories, media, and overall business operations.
-
-This system provides a secure, scalable, and user-friendly environment for administrators to manage dynamic website data efficiently.
+The GMEBD Admin Dashboard is designed to simplify website management through a clean and user-friendly interface. It enables administrators to efficiently manage dynamic website content and maintain business operations from a centralized dashboard.
 
 ---
 
-# 🚀 Features
+## 🛠️ Technologies Used
 
-## ✅ Core Features
+- Laravel
+- PHP
+- MySQL
+- Blade Template Engine
+- Bootstrap / Tailwind CSS
+- JavaScript
+- jQuery
+- Vite
+
+---
+
+## ✨ Features
 
 - Secure Authentication System
 - Admin Dashboard Overview
 - Product Management
 - Category Management
-- Website Content Management
-- Media Upload & Gallery
-- Dynamic Settings Management
-- SEO Friendly Structure
-- Responsive Admin Panel
-- Clean & Optimized Codebase
+- Media Upload System
+- Dynamic Content Management
+- Settings Management
+- Responsive Admin Interface
 - Database Migration Support
+- Optimized Performance
 
 ---
 
-# 🛠️ Tech Stack
+## 📂 Installation Guide
 
-| Technology | Usage |
-|------------|-------|
-| Laravel | Backend Framework |
-| PHP | Server-side Language |
-| MySQL | Database |
-| Blade | Templating Engine |
-| Bootstrap / Tailwind CSS | UI Design |
-| JavaScript | Frontend Interactions |
-| jQuery | DOM Manipulation |
-| Vite | Frontend Asset Bundler |
-
----
-
-# 📂 Project Structure
+### Clone the repository
 
 ```bash
-app/
-bootstrap/
-config/
-database/
-public/
-resources/
-routes/
-storage/
-tests/
-vendor/
-```
+git clone https://github.com/pulakkar333/website_admin.git
 
 ---
 
