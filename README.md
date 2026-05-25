@@ -1,66 +1,190 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+# GMEBD Admin Dashboard
 
 <p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
+  <a href="https://gmebd.com/" target="_blank">
+    <img src="https://gmebd.com/wp-content/uploads/2024/03/GMEBD-Logo.png" width="220" alt="GMEBD Logo">
+  </a>
 </p>
 
-## About Laravel
+<p align="center">
+  <strong>Modern Laravel-based Admin Dashboard for GMEBD Website Management</strong>
+</p>
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+<p align="center">
+  <img src="https://img.shields.io/badge/Laravel-10-red" alt="Laravel Version">
+  <img src="https://img.shields.io/badge/PHP-8.1+-blue" alt="PHP Version">
+  <img src="https://img.shields.io/badge/MySQL-Database-orange" alt="MySQL">
+  <img src="https://img.shields.io/badge/Status-Active-success" alt="Project Status">
+  <img src="https://img.shields.io/badge/License-Private-red" alt="License">
+</p>
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+---
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+# 📌 About The Project
 
-## Learning Laravel
+The **GMEBD Admin Dashboard** is a professional web-based administration panel developed for managing the official GMEBD website content, products, media, and business operations efficiently.
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+This dashboard provides a secure and scalable backend management system with a clean UI and optimized performance using Laravel technologies.
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+---
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 2000 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+# 🚀 Features
 
-## Laravel Sponsors
+## ✅ Core Features
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
+- Secure Admin Authentication
+- Dashboard Analytics
+- Product Management System
+- Category Management
+- Website Content Management
+- Dynamic Page Management
+- Media Upload & Gallery
+- Settings Management
+- SEO Friendly Structure
+- Responsive Admin Panel
+- Optimized Database Structure
+- Clean & Maintainable Codebase
 
-### Premium Partners
+---
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[OP.GG](https://op.gg)**
-- **[WebReinvent](https://webreinvent.com/?utm_source=laravel&utm_medium=github&utm_campaign=patreon-sponsors)**
-- **[Lendio](https://lendio.com)**
+# 🛠️ Tech Stack
 
-## Contributing
+| Technology | Usage |
+|------------|-------|
+| Laravel | Backend Framework |
+| PHP | Server-side Language |
+| MySQL | Database |
+| Blade | Templating Engine |
+| Bootstrap / Tailwind | UI Design |
+| JavaScript | Frontend Interactions |
+| jQuery | DOM Manipulation |
+| Vite | Asset Bundler |
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+---
 
-## Code of Conduct
+# 📂 Project Structure
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+```bash
+app/
+bootstrap/
+config/
+database/
+public/
+resources/
+routes/
+storage/
+tests/
+vendor/
+⚙️ Installation Guide
+1️⃣ Clone Repository
+git clone https://github.com/pulakkar333/website_admin.git
+2️⃣ Enter Project Folder
+cd website_admin
+3️⃣ Install Composer Dependencies
+composer install
+4️⃣ Copy Environment File
+Windows
+copy .env.example .env
+Linux / Mac
+cp .env.example .env
+5️⃣ Generate Application Key
+php artisan key:generate
+6️⃣ Configure Database
 
-## Security Vulnerabilities
+Update your .env file:
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+DB_CONNECTION=mysql
+DB_HOST=127.0.0.1
+DB_PORT=3306
+DB_DATABASE=your_database_name
+DB_USERNAME=root
+DB_PASSWORD=
+7️⃣ Run Database Migration
+php artisan migrate
+8️⃣ Install NPM Dependencies
+npm install
+9️⃣ Compile Frontend Assets
+Development
+npm run dev
+Production
+npm run build
+🔟 Start Laravel Development Server
+php artisan serve
 
-## License
+Server will run on:
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+http://127.0.0.1:8000
+🔐 Admin Authentication
+
+This project includes secure Laravel authentication with:
+
+Login Protection
+Middleware Authorization
+Password Hashing
+Session Management
+CSRF Security
+📸 Dashboard Modules
+Dashboard Overview
+Products
+Categories
+Orders
+Media Library
+Website Settings
+User Management
+Reports & Analytics
+📦 Useful Artisan Commands
+Clear Cache
+php artisan cache:clear
+Clear Config Cache
+php artisan config:clear
+Clear Route Cache
+php artisan route:clear
+Clear View Cache
+php artisan view:clear
+Optimize Application
+php artisan optimize
+🔄 Git Commands
+Initialize Git
+git init
+Add Files
+git add .
+Commit Changes
+git commit -m "Initial Commit"
+Add Remote Repository
+git remote add origin https://github.com/pulakkar333/website_admin.git
+Push to GitHub
+git push -u origin main
+🌐 Official Website
+
+👉 https://gmebd.com/
+
+👨‍💻 Developer Information
+Pulak Kar
+
+Experienced Laravel & Shopify Developer specializing in:
+
+Laravel Development
+Admin Dashboard Systems
+Shopify Customization
+E-commerce Development
+Frontend Development
+Responsive Web Design
+🔗 Connect With Me
+GitHub: https://github.com/pulakkar333
+LinkedIn: https://www.linkedin.com/in/pulak-kar/
+📈 Future Improvements
+REST API Integration
+Role & Permission Management
+Advanced Analytics
+Multi-language Support
+Notification System
+Activity Logs
+🔒 License
+
+This project is proprietary software developed for GMEBD.
+
+Unauthorized copying, modification, or distribution is prohibited.
+
+⭐ Support
+
+If you like this project, feel free to give it a ⭐ on GitHub.
