@@ -26,7 +26,7 @@ Route::get('/projects', [\App\Http\Controllers\Api\ActivityController::class, 'i
 Route::get('/faq', [\App\Http\Controllers\Api\FaqController::class, 'index']);
 
 Route::get('/faq/{slug}', [\App\Http\Controllers\Api\FaqController::class, 'details']);
-Route::get('/packagepricing', [\App\Http\Controllers\Api\packagepricing::class, 'index']);
+// Route::get('/packagepricing', [\App\Http\Controllers\Api\packagepricing::class, 'index']);
 Route::get('/packagepricing/{slug}', [\App\Http\Controllers\Api\PackagePricingController::class, 'details']);
 
 Route::get('/technology', [\App\Http\Controllers\Api\TechnologyController::class, 'index']);
