@@ -22,16 +22,13 @@
                         </div>
                         <div class="panel-body">
                             <div class="row">
-
                                 <div class="col-md-12">
                                     @include('layouts.partial.msg')
-
                                     <form role="form" method="post" action="{{ route('careerbenefit.store') }}">
                                         @csrf
                                         <div class="form-group">
                                             <label>Title <span class="text-danger">*</span></label>
                                             <input class="form-control" name="title" placeholder="Health Insurance" required />
-
                                         </div>
 
                                         <div class="form-group">
@@ -63,9 +60,6 @@
 
                                     </form>
                                     <br />
-
-
-
 
                             </div>
                         </div>
