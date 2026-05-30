@@ -22,24 +22,18 @@
                         </div>
                         <div class="panel-body">
                             <div class="row">
-
                                 <div class="col-md-12">
                                     @include('layouts.partial.msg')
-
                                     <form role="form" method="post" action="{{ route('category.store') }}" enctype="multipart/form-data">
                                         @csrf
                                         <div class="form-group">
                                             <label>Name</label>
                                             <input class="form-control" name="name" placeholder="Title" />
-
                                         </div>
-
                                         {{--<div class="form-group">--}}
                                             {{--<label>Description</label>--}}
                                             {{--<textarea class="form-control ckeditor" rows="3" name="description"></textarea>--}}
                                         {{--</div>--}}
-
-
                                         <div class="form-group">
                                             <label>Album Photo</label>
                                             <input type="file" name="image" id="albumPhoto" accept="image/*"/>
@@ -48,7 +42,6 @@
                                                 <img id="albumPreviewImg" src="" alt="Album Preview" class="img-thumbnail" style="max-width: 300px; max-height: 300px;"/>
                                             </div>
                                         </div>
-
                                         <div class="form-group">
                                             <label>Gallery (Multiple)</label>
                                             <input type="file" class="form-control" placeholder="Image" name="images2[]" id="galleryPhotos" multiple accept="image/*"/>
