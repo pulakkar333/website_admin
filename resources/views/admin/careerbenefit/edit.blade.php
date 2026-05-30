@@ -22,14 +22,11 @@
                         </div>
                         <div class="panel-body">
                             <div class="row">
-
                                 <div class="col-md-12">
                                     @include('layouts.partial.msg')
-
                                     <form role="form" method="post" action="{{ route('careerbenefit.update', $careerBenefit->id) }}">
                                         @csrf
                                         @method('PUT')
-
                                         <div class="form-group">
                                             <label>Title <span class="text-danger">*</span></label>
                                             <input class="form-control" name="title" value="{{ $careerBenefit->title }}" required />
