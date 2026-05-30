@@ -25,11 +25,9 @@
 
                                 <div class="col-md-12">
                                     @include('layouts.partial.msg')
-
                                     <form role="form" method="post" action="{{ route('client.update',$photo->id) }}" enctype="multipart/form-data">
                                         @csrf
                                         @method('PUT')
-
                                         <div class="form-group">
                                             <label>Category *</label>
                                             <select class="form-control" name="category_id" required>
