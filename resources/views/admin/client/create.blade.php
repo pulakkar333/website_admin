@@ -22,13 +22,10 @@
                         </div>
                         <div class="panel-body">
                             <div class="row">
-
                                 <div class="col-md-12">
                                     @include('layouts.partial.msg')
-
                                     <form role="form" method="post" action="{{ route('client.store') }}" enctype="multipart/form-data">
                                         @csrf
-
                                         <div class="form-group">
                                             <label>Category *</label>
                                             <select class="form-control" name="category_id" required>
@@ -53,8 +50,8 @@
                                                 <span class="text-danger">{{ $message }}</span>
                                             @enderror
                                         </div>
-                                        
-                                        
+
+
 
                                         <div class="form-group">
                                             <label>Website URL</label>
@@ -73,7 +70,7 @@
                                                 <span class="text-danger">{{ $message }}</span>
                                             @enderror
                                         </div>
-                                        
+
                                         <div class="form-group">
                                             <label>Order/Sl.No</label>
                                             <input type="number" class="form-control" name="sl" value="{{ old('sl') }}" placeholder="1" min="0" />
