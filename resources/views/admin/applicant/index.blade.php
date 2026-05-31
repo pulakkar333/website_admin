@@ -15,9 +15,7 @@
 
                         </div>
                     </div>
-
                     <hr />
-
                     <div class="col-md-12">
                         <!-- Advanced Tables -->
                         <div class="panel panel-default">
