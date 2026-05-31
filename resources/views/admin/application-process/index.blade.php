@@ -29,7 +29,7 @@
                                     <th width="17%;">Action</th>
                                 </tr>
                                 </thead>
-                                <tbody> 
+                                <tbody>
                                 @foreach($processes as $key=>$process)
                                 <tr class="odd gradeX">
                                     <td>{{ $key + 1 }}</td>
@@ -60,6 +60,5 @@
         </div>
     </div>
 </div>
-
 @endsection
 
