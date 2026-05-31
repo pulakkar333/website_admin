@@ -10,12 +10,10 @@
                 <div class="row">
                     <div class="col-md-12">
                         <h2>All Approved Member</h2>
-
                     </div>
 
 
                     <hr />
-
 
                     <div class="col-md-12">
                         <!-- Advanced Tables -->
