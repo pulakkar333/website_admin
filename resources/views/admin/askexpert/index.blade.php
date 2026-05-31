@@ -12,11 +12,7 @@
                     <h2>Ask An Expert Questions</h2>
                 </div>
             </div>
-
-
             <hr />
-
-
                 <div class="col-md-12">
                     <!-- Advanced Tables -->
                     <div class="panel panel-default">
@@ -24,7 +20,6 @@
                             All Questions ({{ $askExperts->count() }})
                         </div>
                         <div class="panel-body">
-
                             @include('layouts.partial.msg')
                             <div class="table-responsive">
                                 <table class="table table-striped table-bordered table-hover" id="dataTables-example">
