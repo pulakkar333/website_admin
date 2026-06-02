@@ -23,7 +23,6 @@
                             <div class="row">
                                 <div class="col-md-12">
                                     @include('layouts.partial.msg')
-
                                     <form role="form" method="post" action="{{ route('adminuser.update',$adminuser->id) }}" enctype="multipart/form-data">
                                         @csrf
                                         @method('PUT')
@@ -33,8 +32,6 @@
                                             <input type="checkbox" class="form-control" name="active"  value="1" @if($adminuser->active==1) checked="checked" @endif>
                                         </div>
                                         </div>
-
-
 
 
 
