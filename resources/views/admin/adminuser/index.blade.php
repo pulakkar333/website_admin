@@ -12,7 +12,6 @@
                         <h2>All Pending Member</h2>
                     </div>
 
-
                     <hr />
                     <div class="col-md-12">
                         <!-- Advanced Tables -->
@@ -21,7 +20,6 @@
                                 All Pending Member
                             </div>
                             <div class="panel-body">
-
                                 @include('layouts.partial.msg')
                                 <div class="table-responsive">
                                     <table class="table table-striped table-bordered table-hover" id="dataTables-example">
