@@ -28,7 +28,6 @@
                                             <th>Name</th>
                                             <th>Email</th>
                                             <th width="17%;">Action</th>
-
                                         </tr>
                                         </thead>
                                         <tbody>
@@ -51,7 +50,6 @@
                                                 </td>
                                             </tr>
                                         @endforeach
-
 
 
                                                                 </tbody>
