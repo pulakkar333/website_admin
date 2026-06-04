@@ -32,9 +32,6 @@
                                             <input type="checkbox" class="form-control" name="active"  value="1" @if($adminuser->active==1) checked="checked" @endif>
                                         </div>
                                         </div>
-
-
-
                                         <a href="{{ route('adminuser.index') }}" class="btn btn-danger">Back</a>
                                         <button type="submit" class="btn btn-primary">Submit Button</button>
 
