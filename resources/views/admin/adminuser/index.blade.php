@@ -27,8 +27,6 @@
                                             <th>SL.</th>
                                             <th>Name</th>
                                             <th>Email</th>
-
-
                                             <th width="17%;">Action</th>
 
                                         </tr>
