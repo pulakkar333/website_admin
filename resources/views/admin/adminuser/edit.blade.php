@@ -34,10 +34,8 @@
                                         </div>
                                         <a href="{{ route('adminuser.index') }}" class="btn btn-danger">Back</a>
                                         <button type="submit" class="btn btn-primary">Submit Button</button>
-
                                     </form>
                                     <br />
-
                                 </div>
                             </div>
                         </div>
