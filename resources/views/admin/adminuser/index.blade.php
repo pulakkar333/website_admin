@@ -50,8 +50,6 @@
                                                 </td>
                                             </tr>
                                         @endforeach
-
-
                                                                 </tbody>
                                     </table>
                                 </div>
@@ -61,7 +59,6 @@
                         <!--End Advanced Tables -->
                     </div>
                 </div>
-
             </div>
 
         </div>
