@@ -53,7 +53,6 @@
                                                                 </tbody>
                                     </table>
                                 </div>
-
                             </div>
                         </div>
                         <!--End Advanced Tables -->
@@ -63,5 +62,4 @@
         </div>
         <!-- /. PAGE INNER  -->
     </div>
-
 @endsection
