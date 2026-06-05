@@ -41,11 +41,9 @@
                                                 <td>{{ $adminuser->name }}</td>
                                                 <td>{{ $adminuser->email }}</td>
                                                 <td><a href="{{route('adminuser.edituser',$adminuser->id)}}" class="btn btn-info btn-sm"><i class="fa fa-edit"></i> Edit</a>
-
                                                 </td>
                                             </tr>
                                         @endforeach
-
                                                                 </tbody>
                                     </table>
                                 </div>
