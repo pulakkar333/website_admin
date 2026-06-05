@@ -43,11 +43,9 @@
                     </div>
                 </div>
                 <!-- /. ROW  -->
-
                 <!-- /. ROW  -->
             </div>
             <!-- /. PAGE INNER  -->
         </div>
         <!-- /. PAGE WRAPPER  -->
-
 @endsection
