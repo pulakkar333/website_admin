@@ -31,7 +31,6 @@
                                             <th>Email</th>
                                             <th>Phone</th>
                                             <th width="17%;">Action</th>
-
                                         </tr>
                                         </thead>
                                         <tbody>
