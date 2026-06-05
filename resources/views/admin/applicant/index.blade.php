@@ -21,7 +21,6 @@
                                 All Applicant of {{ $title->title }}
                             </div>
                             <div class="panel-body">
-
                                 @include('layouts.partial.msg')
                                 <div class="table-responsive">
                                     <table class="table table-striped table-bordered table-hover" id="dataTables-example">
@@ -31,8 +30,6 @@
                                             <th>Full Name</th>
                                             <th>Email</th>
                                             <th>Phone</th>
-
-
                                             <th width="17%;">Action</th>
 
                                         </tr>
